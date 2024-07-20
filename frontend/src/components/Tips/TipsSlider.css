@@ -1,0 +1,58 @@
+.tips-slider-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .tip-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .tip-box h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .tip-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .tip-box p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dot {
+    height: 2px;
+    width: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #666;
+  }
+  
+  .next {
+    font-size: 0.9em;
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  

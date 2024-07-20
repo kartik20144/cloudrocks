@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon backend/server.js --ignore './frontend/'",
+    "data:import": "node backend/seeder.js",
+    "data:destroy": "node backend/seeder.js -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
