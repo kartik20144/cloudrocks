@@ -8,7 +8,7 @@ import stocks from "./data/stocks.js";
 import options from "./data/options.js";
 import Stock from "./models/stockModel.js";
 import Option from "./models/optionModel.js";
-import Tip from "./models/tipmodel.js";
+import Tip from "./models/TipModel.js";
 import Portfolio from "./models/portfolioModel.js";
 
 dotenv.config();
