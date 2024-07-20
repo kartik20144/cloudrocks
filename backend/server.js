@@ -20,7 +20,7 @@ app.use("/api/option", optionRoutes);
 app.use("/api/tip", tipRoutes);
 app.use("/api/portfolio", portfolioRoutes);
 
-
+const __dirname = path.resolve();
 if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname, "/frontend/dist")));
   
