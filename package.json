@@ -4,9 +4,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node backend/server.js --ignore './frontend/'",
     "server": "nodemon backend/server.js --ignore './frontend/'",
     "data:import": "node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d",
+    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
